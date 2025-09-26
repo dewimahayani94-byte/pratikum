@@ -110,3 +110,13 @@ p::first-letter {
     max-width: 650px;
     border-radius: 8px;
 }
+
+.box-content {
+    width: 800px;
+    background-color: #fff;
+    border:2px solid #261fad;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
