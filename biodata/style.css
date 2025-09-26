@@ -124,6 +124,12 @@ table {
     overflow: hidden;
 }
 
+table th, table td {
+    padding: 12px ;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
 
 
 
