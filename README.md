@@ -85,7 +85,7 @@ web.
 ```
 -   **Section Biodata**
 
-    <img src="cv/gambar4" width="350"
+    <img src="cv/gambar4.png" width="350">
     
 -   **\<section\>** : Membuat bagian khusus, di sini untuk biodata.
 
