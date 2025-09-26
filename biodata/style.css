@@ -70,6 +70,13 @@ footer {
     margin-top: 10px;
 }
 
+/* selektor atribut */
+a[href^="github"] {
+    color: #24292e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 
 
