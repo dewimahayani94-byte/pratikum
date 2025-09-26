@@ -83,6 +83,12 @@ footer {
     text-align: center;
 }
 
+#profil img {
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: o 3px 8px rgba(0,0,0,0.15);
+}
+
 /* selektor atribut */
 a[href^="github"] {
     color: #24292e;
