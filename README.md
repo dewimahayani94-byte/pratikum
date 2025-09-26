@@ -26,7 +26,7 @@ web.
 
 -   **Struktur Dasar HTML**
 
-    <img src="gambar1.png" width="350">
+    <img src="cv/gambar1.png" width="350">
 
 
 -   **!DOCTYPE html\>** : Menandakan bahwa dokumen ini menggunakan
@@ -53,7 +53,7 @@ web.
 
 -   **Bagian Kepala Halaman (Header)**
 
-    <img src="gambar2.png" width="350">
+    <img src="cv/gambar2.png" width="350">
 
 -   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
     atau judul utama.
@@ -85,8 +85,7 @@ web.
 ```
 -   **Section Biodata**
 
-
-    
+    <img src="cv/gambar4" width="350"
     
 -   **\<section\>** : Membuat bagian khusus, di sini untuk biodata.
 
