@@ -26,7 +26,7 @@ web.
 
 -   **Struktur Dasar HTML**
 
-    <img src="cv/gambar1.png" width="350">
+    <img src="gambar1.png" width="350">
 
 
 -   **!DOCTYPE html\>** : Menandakan bahwa dokumen ini menggunakan
@@ -53,7 +53,7 @@ web.
 
 -   **Bagian Kepala Halaman (Header)**
 
-    <img src="cv/gambar2.png" width="350">
+    <img src="gambar2.png" width="350">
 
 -   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
     atau judul utama.
@@ -85,7 +85,7 @@ web.
 ```
 -   **Section Biodata**
 
-    <img src="cv/gambar4.png"width="350"> 
+
     
     
 -   **\<section\>** : Membuat bagian khusus, di sini untuk biodata.
@@ -104,7 +104,7 @@ web.
 ```
 -   **Section Pendidikan**
 
-    <img src="cv/gambar5.png"width="350"> 
+    <img src="gambar5.png"width="350"> 
     
 
 -   **Section id=\"pendidikan\"\> :** Menampilkan riwayat pendidikan
@@ -135,11 +135,9 @@ web.
 
 -   **Footer**
 
-<img src="cv/gambar7.png"width="350"> 
+    <img src="gambar7.png"width="350"> 
     
 
-<!-- -->
-```
 -   **footer\> :** Menyediakan informasi tambahan berupa ajakan untuk
     mengikuti di media sosial. Terdapat tautan yang mengarah ke akun
     Instagram, TikTok, dan Github. Setiap link ditampilkan secara inline
