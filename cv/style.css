@@ -74,3 +74,10 @@ footer {
     color: white;
     font-weight: bold;
 }
+
+/* selektor pendidikan */
+#pendidikan {
+    background-color: #f0f8ff;
+    border: 1px solid #261fad;
+    padding: 15px;
+}
