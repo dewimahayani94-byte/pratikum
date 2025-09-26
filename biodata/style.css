@@ -114,6 +114,15 @@ from button {
     cursor: pointer;
 }
 
+/*table styling*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
 
 
 
