@@ -78,9 +78,9 @@ footer {
 /* selektor ID */
 #profil{
     background-color: #f8f9fc;
-    padding: 10px;
-    border-radius: 8px;
-    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* selektor atribut */
