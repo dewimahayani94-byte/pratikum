@@ -29,64 +29,64 @@ web.
 
 
     -   **!DOCTYPE html\>** : Menandakan bahwa dokumen ini menggunakan
-   standar HTML5.
+       standar HTML5.
 
      -   **\<html lang=\"en\"\>** : Awal dokumen HTML. Atribut lang=\"en\"
-    artinya bahasa default konten adalah Inggris (bisa diganti \"id\"
-    untuk Indonesia).
+        artinya bahasa default konten adalah Inggris (bisa diganti \"id\"
+        untuk Indonesia).
 
     -   **\<meta charset=\"UTF-8\"\>** : Mengatur encoding huruf agar teks
-    (Indonesia/emoji) bisa tampil benar.
+        (Indonesia/emoji) bisa tampil benar.
 
     -   **\<meta name=\"viewport\"\...\>** : Membuat halaman responsif di
-    HP/laptop.
+        HP/laptop.
 
     -   **\<meta http-equiv=\"X-UA-Compatible\"\...\>** : Agar kompatibel di
-    browser lama (misalnya Internet Explorer).
+        browser lama (misalnya Internet Explorer).
 
     -   **\<title\>** : Judul tab di browser: Curriculum Vitae.
 
     -   **\<link rel=\"stylesheet\" href=\"style.css\"\>** : Menghubungkan
-    halaman dengan file CSS eksternal bernama style.css untuk desain.
+        halaman dengan file CSS eksternal bernama style.css untuk desain.
 
 
 
 
-    -   **Bagian Kepala Halaman (Header)**
+    b.   **Bagian Kepala Halaman (Header)**
 
     <img src="cv/gambar2.png" width="350">
 
     -   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
-    atau judul utama.
+        atau judul utama.
 
     -   **\<h1\> :** Judul besar. Dipakai untuk nama pemilik CV. Ada
-    class=\"highlight\" yang dipakai CSS untuk menambahkan efek khusus.
+        class=\"highlight\" yang dipakai CSS untuk menambahkan efek khusus.
 
     -   **\<p\> :** Paragraf tambahan, memberi deskripsi singkat
-    (profesi/posisi).
+        (profesi/posisi).
 
 
 
 
-    -   **Navigasi (Nav)**
+    c.   **Navigasi (Nav)**
 
     <img src="cv/gambar3.png" width="350">
 
     -   **\<nav\>:** menyediakan menu navigasi dengan daftar tautan yang
-    mengarah ke bagian-bagian halaman, yaitu: Biodata, Pendidikan,
-    Skills.
+        mengarah ke bagian-bagian halaman, yaitu: Biodata, Pendidikan,
+        Skills.
 
     -   **\<ul\>** : Membuat daftar bullet.
 
     -   **\<li\>** : Item dalam daftar.
 
     -   **\<a href=\"#biodata\"\>** : Link internal. Saat diklik, halaman
-    akan scroll otomatis ke bagian dengan id=\"biodata\".
+        akan scroll otomatis ke bagian dengan id=\"biodata\".
 
 
 
 
-    -   **Section Biodata**
+    d.   **Section Biodata**
 
     <img src="cv/gambar4.png" width="350">
     
@@ -99,66 +99,66 @@ web.
     -   **\<p\>** : Informasi biodata.
 
     -   **\<strong\>** : Menebalkan teks untuk label penting (Nama, Email,
-    dll.).
+        dll.).
 
 
 
-    -   **Section Pendidikan**
+    e.   **Section Pendidikan**
 
     <img src="cv/gambar5.png" width="350">
 
     -   **Section id=\"pendidikan\"\> :** Menampilkan riwayat pendidikan
-    dengan daftar (\<ul\> dan \<li\>), mulai dari SD hingga perguruan
-    tinggi, lengkap dengan tahun dan jurusan.
+          dengan daftar (\<ul\> dan \<li\>), mulai dari SD hingga perguruan
+          tinggi, lengkap dengan tahun dan jurusan.
 
     -   **\<ul\>** : Daftar tidak berurutan.
 
     -   **\<li\>** : Satu item daftar. Menyimpan riwayat pendidikan dari SD
-    sampai kuliah.
+        sampai kuliah.
 
 
 
 
-    -   **Section Skills**
+    f.   **Section Skills**
 
     <img src="cv/gambar6.png" width="350">
     
     -   **\<section id=\"skills\"\> :** Menyajikan kemampuan atau skill
-    secara daftar singkat, seperti HTML, CSS, JavaScript, Python, Java,
-    dan SQL.
+        secara daftar singkat, seperti HTML, CSS, JavaScript, Python, Java,
+        dan SQL.
 
     -   **\<ul\>** : Daftar skill.
 
     -   **\<li\>** : Tiap item adalah skill teknis (HTML, CSS, JS, Python,
-    dll.).
+        dll.).
 
 
 
 
-    -   **Footer**
+    g.   **Footer**
 
     <img src="cv/gambar7.png" width="350">
 
     -   **footer\> :** Menyediakan informasi tambahan berupa ajakan untuk
-    mengikuti di media sosial. Terdapat tautan yang mengarah ke akun
-    Instagram, TikTok, dan Github. Setiap link ditampilkan secara inline
-    dipisahkan dengan koma.
+       mengikuti di media sosial. Terdapat tautan yang mengarah ke akun
+        Instagram, TikTok, dan Github. Setiap link ditampilkan secara inline
+        dipisahkan dengan koma.
 
     -   **\<p\>** : Paragraf berisi teks dan link.
 
     -   **\<a href**=\"\...\"\> : Link ke sosial media (Instagram, TikTok,
-    Github).
+        Github).
 
 
 
 3.  **Penjelasan CSS** **Curriculum Vitae**
 
-       -   **Styling Body**
+    a.   **Styling Body**
 
     <img src="cv/gambar8.png" width="200">
 
     -   **font-family**: jenis huruf utama Arial, jika tidak tersedia maka
-    pakai sans-serif
+        pakai sans-serif
 
     -   **margin: auto** : posisi konten berada di tengah
 
@@ -171,7 +171,7 @@ web.
     -   **max-width: 700px** : lebar maksimal konten 700 piksel
 
 
-    -   **Styling Header**
+    b.   **Styling Header**
 
     <img src="cv/gambar9.png" width="200">
 
@@ -180,7 +180,7 @@ web.
     -   **border-radius: 10px** : sudut membulat
 
     -   **border: #261fad 2px solid** : garis tepi berwarna ungu gelap,
-    tebal 2px
+        tebal 2px
 
     -   **margin-bottom: 30px** : jarak bawah 30px
 
@@ -191,7 +191,7 @@ web.
     -   **color: white** : teks berwarna putih
 
 
-    -   **Styling Navigasi**
+    c.    **Styling Navigasi**
 
     <img src="cv/gambar10.png" width="200">
     
@@ -210,17 +210,17 @@ web.
     -   **border-radius: 8px** : sudut sedikit melengkung
 
 
-    -   **Styling Nav ul li**
+    d.   **Styling Nav ul li**
 
     <img src="cv/gambar11.png" width="200">
 
     -   **display: inline** : item list ditampilkan sejajar ke samping
 
     -   **margin-right: 0 15px** : memberi jarak kanan dan kiri (seharusnya
-    ditulis margin: 0 15px)
+        ditulis margin: 0 15px)
 
 
-    -   **Styling Nav ul li a**
+    e.   **Styling Nav ul li a**
 
     <img src="cv/gambar12.png" width="200">
 
@@ -242,17 +242,17 @@ web.
     -   **display: inline-block** : supaya padding berfungsi penuh
 
 
-    -   **Styling nav ul li a:hover**
+    f.   **Styling nav ul li a:hover**
 
     <img src="cv/gambar13.png" width="200">
 
     -   **olor: #333** : teks berubah menjadi abu gelap saat diarahkan
-    kursor
+        kursor
 
     -   **border: 1px solid #333** : muncul garis tepi abu gelap
 
 
-    -   **Styling Section**
+    g.   **Styling Section**
 
     <img src="cv/gambar14.png" width="200">
 
@@ -272,7 +272,7 @@ web.
     -   **background-color: #fff** : latar belakang putih
 
 
-    -   **Styling Footer**
+    h.   **Styling Footer**
 
     <img src="cv/gambar15.png" width="200">
 
@@ -294,7 +294,7 @@ web.
     -   **border-radius: 10px :** sudut membulat
 
 
-    -   **Styling Selektor Kelas .highlight**
+    i.   **Styling Selektor Kelas .highlight**
 
     <img src="cv/gambar16.png" width="200">
 
@@ -303,7 +303,7 @@ web.
     -   **font-weight: bold** : teks tebal
 
 
-    -   **Styling selektor ID #pendidikan**
+    j.   **Styling selektor ID #pendidikan**
 
     <img src="cv/gambar17.png" width="200">
 
@@ -314,16 +314,16 @@ web.
     -   **padding: 15px** : ruang dalam 15px
 
 
-    -   **Styling Selektor Atribut**
+    k.   **Styling Selektor Atribut**
 
       <img src="cv/gambar18.png" width="200">
 
     -   **a\[href\^=\"https\"\]** : semua link yang alamatnya diawali dengan
-    https
+        https
 
     -   **color: white** : warna link menjadi putih
 
-    -   **Styling Selektor Pseudo Kelas**
+    l.   **Styling Selektor Pseudo Kelas**
 
       <img src="cv/gambar19.png" width="200">
 
@@ -333,19 +333,19 @@ web.
     -   **color: black** : teks berubah hitam
 
 
-    -   **Selektor Pseudo Elemen**
+    m.   **Selektor Pseudo Elemen**
 
     <img src="cv/gambar20.png" width="200">
 
     -   **p::first-letter :** huruf pertama dari paragraf
 
     -   **font-size: 1em :** ukuran huruf sama dengan teks normal (bisa
-    dibesarkan kalau mau efek lebih jelas)
+        dibesarkan kalau mau efek lebih jelas)
 
     -   **color: #261fad :** huruf pertama berwarna ungu gelap
 
 
-    -   **Styling Kotak Info**
+    n.   **Styling Kotak Info**
       <img src="cv/gambar21.png" width="200">
 
 
@@ -364,7 +364,7 @@ web.
     -   **border-radius: 8px** : sudut melengkung
 
 
-    -   **Box Content**
+    o.   **Box Content**
 
     <img src="cv/gambar22.png" width="200">
 
