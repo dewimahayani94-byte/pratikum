@@ -80,9 +80,7 @@ web.
 -   **\<a href=\"#biodata\"\>** : Link internal. Saat diklik, halaman
     akan scroll otomatis ke bagian dengan id=\"biodata\".
 
-```{=html}
-<!-- -->
-```
+
 -   **Section Biodata**
 
     <img src="cv/gambar4.png" width="350">
@@ -98,12 +96,10 @@ web.
 -   **\<strong\>** : Menebalkan teks untuk label penting (Nama, Email,
     dll.).
 
-```{=html}
-<!-- -->
-```
+
 -   **Section Pendidikan**
 
-    <img src="gambar5.png"width="350"> 
+    <img src="cv/gambar5.png" width="350">
     
 
 -   **Section id=\"pendidikan\"\> :** Menampilkan riwayat pendidikan
@@ -115,13 +111,11 @@ web.
 -   **\<li\>** : Satu item daftar. Menyimpan riwayat pendidikan dari SD
     sampai kuliah.
 
-```{=html}
-<!-- -->
-```
+
 -   **Section Skills**
 
-<img src="cv/gambar6.png"width="350"> 
-    `
+    <img src="cv/gambar6.png" width="350">
+    
 -   **\<section id=\"skills\"\> :** Menyajikan kemampuan atau skill
     secara daftar singkat, seperti HTML, CSS, JavaScript, Python, Java,
     dan SQL.
