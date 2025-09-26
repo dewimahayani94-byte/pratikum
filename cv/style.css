@@ -16,3 +16,12 @@ header {
     text-align: center;
     color: white;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #6c63ff;
+    border-radius: 8px;
+}
