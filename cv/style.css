@@ -68,3 +68,9 @@ footer {
     color: white;
     border-radius: 10px;
 }
+
+/* selektor kelas */
+.highlight {
+    color: white;
+    font-weight: bold;
+}
