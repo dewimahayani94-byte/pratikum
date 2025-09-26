@@ -10,7 +10,6 @@ Disusun Oleh
 Ni Komang Dewi Mahayani (42430028)
 
 1.  **Pendahuluan**
-
 Praktikum ini dilakukan untuk memahami dasar-dasar pembuatan halaman web
 menggunakan HTML dan CSS. Fokus kegiatan ini adalah membangun struktur
 halaman web yang rapi dan mengaplikasikan pengaturan gaya tampilan agar
@@ -57,164 +56,158 @@ web.
 
     <img src="cv/gambar2.png" width="350">
 
-   -   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
+    -   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
     atau judul utama.
 
--   **\<h1\> :** Judul besar. Dipakai untuk nama pemilik CV. Ada
+    -   **\<h1\> :** Judul besar. Dipakai untuk nama pemilik CV. Ada
     class=\"highlight\" yang dipakai CSS untuk menambahkan efek khusus.
 
--   **\<p\> :** Paragraf tambahan, memberi deskripsi singkat
+    -   **\<p\> :** Paragraf tambahan, memberi deskripsi singkat
     (profesi/posisi).
 
 
 
 
--   **Navigasi (Nav)**
+    -   **Navigasi (Nav)**
 
     <img src="cv/gambar3.png" width="350">
 
--   **\<nav\>:** menyediakan menu navigasi dengan daftar tautan yang
+    -   **\<nav\>:** menyediakan menu navigasi dengan daftar tautan yang
     mengarah ke bagian-bagian halaman, yaitu: Biodata, Pendidikan,
     Skills.
 
--   **\<ul\>** : Membuat daftar bullet.
+    -   **\<ul\>** : Membuat daftar bullet.
 
--   **\<li\>** : Item dalam daftar.
+    -   **\<li\>** : Item dalam daftar.
 
--   **\<a href=\"#biodata\"\>** : Link internal. Saat diklik, halaman
+    -   **\<a href=\"#biodata\"\>** : Link internal. Saat diklik, halaman
     akan scroll otomatis ke bagian dengan id=\"biodata\".
 
 
 
 
--   **Section Biodata**
+    -   **Section Biodata**
 
     <img src="cv/gambar4.png" width="350">
     
--   **\<section\>** : Membuat bagian khusus, di sini untuk biodata.
+    -   **\<section\>** : Membuat bagian khusus, di sini untuk biodata.
 
--   **id=\"biodata\"** : Supaya bisa dituju dari menu navigasi.
+    -   **id=\"biodata\"** : Supaya bisa dituju dari menu navigasi.
 
--   **\<h2\>** : Subjudul (lebih kecil dari \<h1\>).
+    -   **\<h2\>** : Subjudul (lebih kecil dari \<h1\>).
 
--   **\<p\>** : Informasi biodata.
+    -   **\<p\>** : Informasi biodata.
 
--   **\<strong\>** : Menebalkan teks untuk label penting (Nama, Email,
+    -   **\<strong\>** : Menebalkan teks untuk label penting (Nama, Email,
     dll.).
 
 
 
--   **Section Pendidikan**
+    -   **Section Pendidikan**
 
     <img src="cv/gambar5.png" width="350">
 
--   **Section id=\"pendidikan\"\> :** Menampilkan riwayat pendidikan
+    -   **Section id=\"pendidikan\"\> :** Menampilkan riwayat pendidikan
     dengan daftar (\<ul\> dan \<li\>), mulai dari SD hingga perguruan
     tinggi, lengkap dengan tahun dan jurusan.
 
--   **\<ul\>** : Daftar tidak berurutan.
+    -   **\<ul\>** : Daftar tidak berurutan.
 
--   **\<li\>** : Satu item daftar. Menyimpan riwayat pendidikan dari SD
+    -   **\<li\>** : Satu item daftar. Menyimpan riwayat pendidikan dari SD
     sampai kuliah.
 
 
 
 
--   **Section Skills**
+    -   **Section Skills**
 
     <img src="cv/gambar6.png" width="350">
     
--   **\<section id=\"skills\"\> :** Menyajikan kemampuan atau skill
+    -   **\<section id=\"skills\"\> :** Menyajikan kemampuan atau skill
     secara daftar singkat, seperti HTML, CSS, JavaScript, Python, Java,
     dan SQL.
 
--   **\<ul\>** : Daftar skill.
+    -   **\<ul\>** : Daftar skill.
 
--   **\<li\>** : Tiap item adalah skill teknis (HTML, CSS, JS, Python,
+    -   **\<li\>** : Tiap item adalah skill teknis (HTML, CSS, JS, Python,
     dll.).
 
 
 
 
--   **Footer**
+    -   **Footer**
 
     <img src="cv/gambar7.png" width="350">
 
--   **footer\> :** Menyediakan informasi tambahan berupa ajakan untuk
+    -   **footer\> :** Menyediakan informasi tambahan berupa ajakan untuk
     mengikuti di media sosial. Terdapat tautan yang mengarah ke akun
     Instagram, TikTok, dan Github. Setiap link ditampilkan secara inline
     dipisahkan dengan koma.
 
--   **\<p\>** : Paragraf berisi teks dan link.
+    -   **\<p\>** : Paragraf berisi teks dan link.
 
--   **\<a href**=\"\...\"\> : Link ke sosial media (Instagram, TikTok,
+    -   **\<a href**=\"\...\"\> : Link ke sosial media (Instagram, TikTok,
     Github).
 
 
 
 3.  **Penjelasan CSS** **Curriculum Vitae**
 
--   **Styling Body**
+       -   **Styling Body**
 
+    <img src="cv/gambar8.png" width="200">
 
--   **font-family**: jenis huruf utama Arial, jika tidak tersedia maka
+    -   **font-family**: jenis huruf utama Arial, jika tidak tersedia maka
     pakai sans-serif
 
--   **margin: auto** : posisi konten berada di tengah
+    -   **margin: auto** : posisi konten berada di tengah
 
--   **padding: 0** : tidak ada ruang dalam
+    -   **padding: 0** : tidak ada ruang dalam
 
--   **background-color: #f5f5f5** : latar belakang abu-abu muda
+    -   **background-color: #f5f5f5** : latar belakang abu-abu muda
 
--   **color: #333** : warna teks abu tua
+    -   **color: #333** : warna teks abu tua
 
--   **max-width: 700px** : lebar maksimal konten 700 piksel
+    -   **max-width: 700px** : lebar maksimal konten 700 piksel
 
-```{=html}
-<!-- -->
-```
--   **Styling Header**
 
-```{=html}
-<!-- -->
-```
--   **background-color: #6c63ff** : warna ungu cerah untuk latar
-    belakang
+    -   **Styling Header**
 
--   **border-radius: 10px** : sudut membulat
+    <img src="cv/gambar9.png" width="200">
 
--   **border: #261fad 2px solid** : garis tepi berwarna ungu gelap,
+    -   **background-color: #6c63ff** : warna ungu cerah untuk latar belakang
+
+    -   **border-radius: 10px** : sudut membulat
+
+    -   **border: #261fad 2px solid** : garis tepi berwarna ungu gelap,
     tebal 2px
 
--   **margin-bottom: 30px** : jarak bawah 30px
+    -   **margin-bottom: 30px** : jarak bawah 30px
 
--   **padding: 20px** : ruang dalam 20px
+    -   **padding: 20px** : ruang dalam 20px
 
--   **text-align: center** : isi teks rata tengah
+    -   **text-align: center** : isi teks rata tengah
 
--   **color: white** : teks berwarna putih
+    -   **color: white** : teks berwarna putih
 
-```{=html}
-<!-- -->
-```
--   **Styling Navigasi**
 
-```{=html}
-<!-- -->
-```
--   **list-style-type: none** : menghilangkan tanda bullet
+    -   **Styling Navigasi**
 
--   **padding: 0** : tidak ada ruang dalam
+    <img src="cv/gambar10.png" width="200">
+    
+    -   **list-style-type: none** : menghilangkan tanda bullet
 
--   **margin: 0** : tidak ada ruang luar
+    -   **padding: 0** : tidak ada ruang dalam
 
--   **text-align: center** : menu rata tengah
+    -   **margin: 0** : tidak ada ruang luar
 
--   **background-color: #6c63ff** : warna latar ungu cerah
+    -   **text-align: center** : menu rata tengah
 
--   **border: #261fad 2px solid** : garis tepi ungu gelap
+    -   **background-color: #6c63ff** : warna latar ungu cerah
 
--   **border-radius: 8px** : sudut sedikit melengkung
+    -   **border: #261fad 2px solid** : garis tepi ungu gelap
+
+    -   **border-radius: 8px** : sudut sedikit melengkung
 
 ```{=html}
 <!-- -->
