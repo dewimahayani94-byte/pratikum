@@ -77,6 +77,14 @@ a[href^="github"] {
     font-weight: bold;
 }
 
+/* selektor pseudo-element */
+p::first-letter {
+    font-style: italic;
+    color: #2e59d9;
+}
+
+
+
 
 
 
