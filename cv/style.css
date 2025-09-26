@@ -99,3 +99,14 @@ p::first-letter {
     font-size: 1em;
     color: #261fad;
 }
+
+/*kontak informasi utama*/
+.kotak-info {
+    background-color: #f8f9fc;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid #261fad;
+    margin-top: 10px;
+    max-width: 650px;
+    border-radius: 8px;
+}
