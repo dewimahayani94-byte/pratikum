@@ -25,3 +25,8 @@ nav ul {
     background-color: #6c63ff;
     border-radius: 8px;
 }
+
+nav ul li {
+    display: inline;
+    margin-right: 0 15px;
+}
