@@ -62,6 +62,14 @@ footer {
     font-weight: bold;
 }
 
+/* selektor ID */
+#profil{
+    background-color: #f8f9fc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
 
 
 
