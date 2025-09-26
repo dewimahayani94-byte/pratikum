@@ -26,3 +26,9 @@ nav ul li {
     display: inline;
     margin: 20px;
 }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
