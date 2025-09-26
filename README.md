@@ -23,7 +23,7 @@ web.
 
 2.  **Penjelasan Struktur HTML Curriculum Vitae**
 
-    -   **Struktur Dasar HTML**
+    a.   **Struktur Dasar HTML**
 
     <img src="cv/gambar1.png" width="350">
 
@@ -209,215 +209,178 @@ web.
 
     -   **border-radius: 8px** : sudut sedikit melengkung
 
-```{=html}
-<!-- -->
-```
--   **Styling Nav ul li**
 
-```{=html}
-<!-- -->
-```
--   **display: inline** : item list ditampilkan sejajar ke samping
+    -   **Styling Nav ul li**
 
--   **margin-right: 0 15px** : memberi jarak kanan dan kiri (seharusnya
+    <img src="cv/gambar11.png" width="200">
+
+    -   **display: inline** : item list ditampilkan sejajar ke samping
+
+    -   **margin-right: 0 15px** : memberi jarak kanan dan kiri (seharusnya
     ditulis margin: 0 15px)
 
-```{=html}
-<!-- -->
-```
--   **Styling Nav ul li a**
 
-```{=html}
-<!-- -->
-```
--   **color: white** : teks link putih
+    -   **Styling Nav ul li a**
 
--   **text-decoration: none** : hilangkan garis bawah
+    <img src="cv/gambar12.png" width="200">
 
--   **font-weight: bold** : teks tebal
+    -   **color: white** : teks link putih
 
--   **transition: 0.3s** : efek animasi halus saat hover
+    -   **text-decoration: none** : hilangkan garis bawah
 
--   **padding: 20px 25px** : ruang dalam atas-bawah 20px, kiri-kanan
-    25px
+    -   **font-weight: bold** : teks tebal
 
--   **border: 1px solid transparent** : garis tepi transparan
+    -   **transition: 0.3s** : efek animasi halus saat hover
 
--   **border-radius: 5px** : sudut membulat
+    -   **padding: 20px 25px** : ruang dalam atas-bawah 20px, kiri-kanan
+        25px
 
--   **display: inline-block** : supaya padding berfungsi penuh
+    -   **border: 1px solid transparent** : garis tepi transparan
 
-```{=html}
-<!-- -->
-```
--   **Styling nav ul li a:hover**
+    -   **border-radius: 5px** : sudut membulat
 
-```{=html}
-<!-- -->
-```
--   **olor: #333** : teks berubah menjadi abu gelap saat diarahkan
+    -   **display: inline-block** : supaya padding berfungsi penuh
+
+
+    -   **Styling nav ul li a:hover**
+
+    <img src="cv/gambar13.png" width="200">
+
+    -   **olor: #333** : teks berubah menjadi abu gelap saat diarahkan
     kursor
 
--   **border: 1px solid #333** : muncul garis tepi abu gelap
+    -   **border: 1px solid #333** : muncul garis tepi abu gelap
 
-```{=html}
-<!-- -->
-```
--   **Styling Section**
 
-```{=html}
-<!-- -->
-```
--   **border: 1px solid #261fad** : garis tepi ungu gelap
+    -   **Styling Section**
 
--   **border-radius: 8px** : sudut melengkung
+    <img src="cv/gambar14.png" width="200">
 
--   **padding: 15px** : ruang dalam 15px
+    -   **border: 1px solid #261fad** : garis tepi ungu gelap
 
--   **margin: 20px** : jarak luar 20px
+    -   **border-radius: 8px** : sudut melengkung
 
--   **max-width: 800px** : lebar maksimal 800 piksel
+    -   **padding: 15px** : ruang dalam 15px
 
--   **box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)** : bayangan lembut di
-    belakang kotak
+    -   **margin: 20px** : jarak luar 20px
 
--   **background-color: #fff** : latar belakang putih
+    -   **max-width: 800px** : lebar maksimal 800 piksel
 
-```{=html}
-<!-- -->
-```
--   **Styling Footer**
+    -   **box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)** : bayangan lembut di
+        belakang kotak
 
-```{=html}
-<!-- -->
-```
--   **ext-align: center :** isi rata tengah
+    -   **background-color: #fff** : latar belakang putih
 
--   **padding: 15px :** ruang dalam 15px
 
--   **background-color: #6c63ff :** warna ungu cerah
+    -   **Styling Footer**
 
--   **border-top: 1px solid #261fad :** garis tepi bagian atas ungu
-    gelap
+    <img src="cv/gambar15.png" width="200">
 
--   **margin-top: 20px :** jarak luar atas 20px
+    -   **ext-align: center :** isi rata tengah
 
--   **font-size: 1.1em :** ukuran teks lebih besar sedikit dari normal
+    -   **padding: 15px :** ruang dalam 15px
 
--   **color: #261fad :** teks berwarna ungu gelap
+    -   **background-color: #6c63ff :** warna ungu cerah
 
--   **border-radius: 10px :** sudut membulat
+    -   **border-top: 1px solid #261fad :** garis tepi bagian atas ungu
+        gelap
 
-```{=html}
-<!-- -->
-```
--   **Styling Selektor Kelas .highlight**
+    -   **margin-top: 20px :** jarak luar atas 20px
 
-```{=html}
-<!-- -->
-```
--   **color: white** : teks berwarna putih
+    -   **font-size: 1.1em :** ukuran teks lebih besar sedikit dari normal
 
--   **font-weight: bold** : teks tebal
+    -   **color: #261fad :** teks berwarna ungu gelap
 
-```{=html}
-<!-- -->
-```
--   **Styling selektor ID #pendidikan**
+    -   **border-radius: 10px :** sudut membulat
 
-```{=html}
-<!-- -->
-```
--   **background-color: white** : latar belakang putih
 
--   **border: 1px solid #261fad** : garis tepi ungu gelap
+    -   **Styling Selektor Kelas .highlight**
 
--   **padding: 15px** : ruang dalam 15px
+    <img src="cv/gambar16.png" width="200">
 
-```{=html}
-<!-- -->
-```
--   **Styling Selektor Atribut**
+    -   **color: white** : teks berwarna putih
 
-```{=html}
-<!-- -->
-```
--   **a\[href\^=\"https\"\]** : semua link yang alamatnya diawali dengan
+    -   **font-weight: bold** : teks tebal
+
+
+    -   **Styling selektor ID #pendidikan**
+
+    <img src="cv/gambar17.png" width="200">
+
+    -   **background-color: white** : latar belakang putih
+
+    -   **border: 1px solid #261fad** : garis tepi ungu gelap
+
+    -   **padding: 15px** : ruang dalam 15px
+
+
+    -   **Styling Selektor Atribut**
+
+      <img src="cv/gambar18.png" width="200">
+
+    -   **a\[href\^=\"https\"\]** : semua link yang alamatnya diawali dengan
     https
 
--   **color: white** : warna link menjadi putih
+    -   **color: white** : warna link menjadi putih
 
-```{=html}
-<!-- -->
-```
--   **Styling Selektor Pseudo Kelas**
+    -   **Styling Selektor Pseudo Kelas**
 
-```{=html}
-<!-- -->
-```
--   **text-decoration: underline** : teks bergaris bawah saat diarahkan
+      <img src="cv/gambar19.png" width="200">
+
+    -   **text-decoration: underline** : teks bergaris bawah saat diarahkan
     kursor
 
--   **color: black** : teks berubah hitam
+    -   **color: black** : teks berubah hitam
 
-```{=html}
-<!-- -->
-```
--   **Selektor Pseudo Elemen**
 
-```{=html}
-<!-- -->
-```
--   **p::first-letter :** huruf pertama dari paragraf
+    -   **Selektor Pseudo Elemen**
 
--   **font-size: 1em :** ukuran huruf sama dengan teks normal (bisa
+    <img src="cv/gambar20.png" width="200">
+
+    -   **p::first-letter :** huruf pertama dari paragraf
+
+    -   **font-size: 1em :** ukuran huruf sama dengan teks normal (bisa
     dibesarkan kalau mau efek lebih jelas)
 
--   **color: #261fad :** huruf pertama berwarna ungu gelap
+    -   **color: #261fad :** huruf pertama berwarna ungu gelap
 
-```{=html}
-<!-- -->
-```
--   **Styling Kotak Info**
 
-```{=html}
-<!-- -->
-```
--   **background-color: #f8f9fc** : warna abu sangat muda
+    -   **Styling Kotak Info**
+      <img src="cv/gambar21.png" width="200">
 
--   **padding: 15px** : ruang dalam 15px
 
--   **margin: 0 auto** : posisi di tengah halaman
+    -   **background-color: #f8f9fc** : warna abu sangat muda
 
--   **border: 1px solid #261fad** : garis tepi ungu gelap
+    -   **padding: 15px** : ruang dalam 15px
 
--   **margin-top: 10px** : jarak atas 10px
+    -   **margin: 0 auto** : posisi di tengah halaman
 
--   **max-width: 650px** : lebar maksimal 650 piksel
+    -   **border: 1px solid #261fad** : garis tepi ungu gelap
 
--   **border-radius: 8px** : sudut melengkung
+    -   **margin-top: 10px** : jarak atas 10px
 
-```{=html}
-<!-- -->
-```
--   **Box Content**
+    -   **max-width: 650px** : lebar maksimal 650 piksel
 
-```{=html}
-<!-- -->
-```
--   **width: 800px :** lebar tetap 800 piksel
+    -   **border-radius: 8px** : sudut melengkung
 
--   **background-color: #fff :** latar belakang putih
 
--   **border: 2px solid #261fad :** garis tepi ungu gelap, lebih tebal
+    -   **Box Content**
 
--   **margin: 0 auto :** posisi di tengah layar
+    <img src="cv/gambar22.png" width="200">
 
--   **padding: 15px :** ruang dalam 15px
+    -   **width: 800px :** lebar tetap 800 piksel
 
--   **display: flex :** menggunakan layout flexbox
+    -   **background-color: #fff :** latar belakang putih
 
--   **align-items: center :** isi box disejajarkan vertikal di tengah
+    -   **border: 2px solid #261fad :** garis tepi ungu gelap, lebih tebal
+
+    -   **margin: 0 auto :** posisi di tengah layar
+
+    -   **padding: 15px :** ruang dalam 15px
+
+    -   **display: flex :** menggunakan layout flexbox
+
+    -   **align-items: center :** isi box disejajarkan vertikal di tengah
 
 4.  **Kesimpulan**
 
