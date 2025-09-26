@@ -130,6 +130,11 @@ table th, table td {
     text-align: center;
 }
 
+table th {
+    background-color: #2e59d9;
+    color: white;
+}
+
 
 
 
