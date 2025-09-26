@@ -93,3 +93,8 @@ a:hover {
     color: black;
 }
 
+/*pseudo elemen*/
+p::first-letter {
+    font-size: 1em;
+    color: #261fad;
+}
