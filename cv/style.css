@@ -24,6 +24,7 @@ nav ul {
     margin: 0;
     text-align: center;
     background-color: #6c63ff;
+    border:#261fad 2px solid;
     border-radius: 8px;
 }
 
