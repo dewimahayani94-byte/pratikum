@@ -21,3 +21,8 @@ nav ul {
     text-align: center;
     background-color: #2e59d9;
 }
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
