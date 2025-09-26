@@ -24,38 +24,40 @@ web.
 
 2.  **Penjelasan Struktur HTML Curriculum Vitae**
 
--   **Struktur Dasar HTML**
+    -   **Struktur Dasar HTML**
 
     <img src="cv/gambar1.png" width="350">
 
 
--   **!DOCTYPE html\>** : Menandakan bahwa dokumen ini menggunakan
-    standar HTML5.
+    -   **!DOCTYPE html\>** : Menandakan bahwa dokumen ini menggunakan
+   standar HTML5.
 
--   **\<html lang=\"en\"\>** : Awal dokumen HTML. Atribut lang=\"en\"
+     -   **\<html lang=\"en\"\>** : Awal dokumen HTML. Atribut lang=\"en\"
     artinya bahasa default konten adalah Inggris (bisa diganti \"id\"
     untuk Indonesia).
 
--   **\<meta charset=\"UTF-8\"\>** : Mengatur encoding huruf agar teks
+    -   **\<meta charset=\"UTF-8\"\>** : Mengatur encoding huruf agar teks
     (Indonesia/emoji) bisa tampil benar.
 
--   **\<meta name=\"viewport\"\...\>** : Membuat halaman responsif di
+    -   **\<meta name=\"viewport\"\...\>** : Membuat halaman responsif di
     HP/laptop.
 
--   **\<meta http-equiv=\"X-UA-Compatible\"\...\>** : Agar kompatibel di
+    -   **\<meta http-equiv=\"X-UA-Compatible\"\...\>** : Agar kompatibel di
     browser lama (misalnya Internet Explorer).
 
--   **\<title\>** : Judul tab di browser: Curriculum Vitae.
+    -   **\<title\>** : Judul tab di browser: Curriculum Vitae.
 
--   **\<link rel=\"stylesheet\" href=\"style.css\"\>** : Menghubungkan
+    -   **\<link rel=\"stylesheet\" href=\"style.css\"\>** : Menghubungkan
     halaman dengan file CSS eksternal bernama style.css untuk desain.
 
 
--   **Bagian Kepala Halaman (Header)**
+
+
+    -   **Bagian Kepala Halaman (Header)**
 
     <img src="cv/gambar2.png" width="350">
 
--   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
+   -   **\<header\> :** Bagian kepala halaman, biasanya berisi identitas
     atau judul utama.
 
 -   **\<h1\> :** Judul besar. Dipakai untuk nama pemilik CV. Ada
@@ -63,6 +65,8 @@ web.
 
 -   **\<p\> :** Paragraf tambahan, memberi deskripsi singkat
     (profesi/posisi).
+
+
 
 
 -   **Navigasi (Nav)**
@@ -81,6 +85,8 @@ web.
     akan scroll otomatis ke bagian dengan id=\"biodata\".
 
 
+
+
 -   **Section Biodata**
 
     <img src="cv/gambar4.png" width="350">
@@ -97,10 +103,10 @@ web.
     dll.).
 
 
+
 -   **Section Pendidikan**
 
     <img src="cv/gambar5.png" width="350">
-    
 
 -   **Section id=\"pendidikan\"\> :** Menampilkan riwayat pendidikan
     dengan daftar (\<ul\> dan \<li\>), mulai dari SD hingga perguruan
@@ -110,6 +116,8 @@ web.
 
 -   **\<li\>** : Satu item daftar. Menyimpan riwayat pendidikan dari SD
     sampai kuliah.
+
+
 
 
 -   **Section Skills**
@@ -126,10 +134,11 @@ web.
     dll.).
 
 
+
+
 -   **Footer**
 
-    <img src="gambar7.png"width="350"> 
-    
+    <img src="cv/gambar7.png" width="350">
 
 -   **footer\> :** Menyediakan informasi tambahan berupa ajakan untuk
     mengikuti di media sosial. Terdapat tautan yang mengarah ke akun
@@ -140,6 +149,8 @@ web.
 
 -   **\<a href**=\"\...\"\> : Link ke sosial media (Instagram, TikTok,
     Github).
+
+
 
 3.  **Penjelasan CSS** **Curriculum Vitae**
 
