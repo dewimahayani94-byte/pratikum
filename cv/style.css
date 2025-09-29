@@ -190,3 +190,9 @@ section {
     box-sizing: border-box;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+  .content section {
+    flex: 1 1 100%; /* jadi 1 kolom di HP */
+  }
+}
