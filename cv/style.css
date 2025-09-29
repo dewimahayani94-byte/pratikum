@@ -152,19 +152,26 @@ footer {
 /* flexbox */
 .skills-list {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 15px;
-    list-style-type: none;
+    list-style: none;
     padding:0;
+    margin: 0;
 }
 
 .skills-list li {
     background-color: #6c63ff;
     color: white;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 5px;
     font-weight: bold;
     border: 1px solid #261fad;
+    text-align: center;
+
+    flex: 1 1 120px;
+    max-width: 120px;
+    padding: 10px;
 }
 
 .content {
